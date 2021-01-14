@@ -9,4 +9,5 @@ $(function () {
     console.log(url);
     // 写入iframe src
     $("#iframe_test").attr("src", url)
+
 });

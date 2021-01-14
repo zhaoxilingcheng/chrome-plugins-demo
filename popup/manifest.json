@@ -1,5 +1,6 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
+  "homepage_url": "http://lostmylife.top/csdn",
   "name": "popup展示iframe",
   "version": "0.1",
   "description": "谷歌插件开发-popup",
@@ -22,7 +23,7 @@
   "content_scripts": [
     {
       "js": [
-        "lib/jquery.min.js"
+        "lib/jquery.min.js", "js/inject.js"
       ],
       "matches": [
         "http://*/*",
